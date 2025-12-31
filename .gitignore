@@ -1,2 +1,11 @@
-node_git amodules
+# Node
+node_modules/
 .env
+
+# Android/Gradle
+android-tv-webview/.gradle/
+android-tv-webview/local.properties
+android-tv-webview/app/build/
+android-tv-webview/build/
+android-tv-webview/.idea/
+*.iml
