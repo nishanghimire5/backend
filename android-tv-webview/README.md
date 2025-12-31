@@ -9,7 +9,7 @@ This module contains a minimal Android TV application that opens a single websit
 - Cleartext traffic allowed (configure as needed for your site).
 
 ## Configure the target URL
-The WebView loads the value of `BuildConfig.WEB_URL`. By default it is `https://example.com`. Override it at build time:
+The WebView loads the value of `BuildConfig.WEB_URL`. By default it is `https://movhub.ws/home`. Override it at build time:
 
 ```bash
 ./gradlew :app:assembleDebug -PwebUrl=https://your-site.example

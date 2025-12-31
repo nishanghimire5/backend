@@ -1,7 +1,7 @@
 apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 
-def targetUrl = project.hasProperty("webUrl") ? project.property("webUrl") : "https://example.com"
+def targetUrl = project.hasProperty("webUrl") ? project.property("webUrl") : "https://movhub.ws/home"
 
 def safeUrl = targetUrl.replace("\"", "\\\"")
 
